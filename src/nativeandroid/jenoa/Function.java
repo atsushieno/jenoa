@@ -1,7 +1,7 @@
-// FIXME: not done
 package nativeandroid.jenoa;
 
 import java.lang.reflect.Method;
+import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
@@ -25,17 +25,24 @@ public class Function extends Pointer {
 	
 	public static Function getFunction(String libraryName, String functionName, int callFlags)
 	{
-		throw new UnsupportedOperationException();
+		return NativeLibrary.getInstance(libraryName).getFunction(functionName, callFlags);
 	}
 	
 	public static Function getFunction(Pointer p)
 	{
 		return getFunction(p, C_CONVENTION);
 	}
+
+	static Map<Pointer,Function> functions_by_pointer = new HashMap<Pointer,Function>();
 	
 	public static Function getFunction(Pointer p, int callFlags)
 	{
-		throw new UnsupportedOperationException();
+		Function f = functions_by_pointer.get(p);
+		if (f == null) {
+			f = new Function (p, callFlags);
+			functions_by_pointer.put(p, f);
+		}
+		return f;
 	}
 	
 	static Object[] concatenateVarArgs(Object[] inArgs)

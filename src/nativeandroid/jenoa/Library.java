@@ -8,17 +8,18 @@ public interface Library {
 	public static class Handler implements InvocationHandler {
 
 		static final Class object_class = Object.class;
-		static final Method OBJECT_TOSTRING = GetMethod ("toString");
+		static final Method OBJECT_TOSTRING = GetObjectMethod ("toString");
 
-		static final Method OBJECT_HASHCODE = GetMethod ("hashCode");
+		static final Method OBJECT_HASHCODE = GetObjectMethod ("hashCode");
 		
-		static final Method OBJECT_EQUALS = GetMethod ("equals");
+		static final Method OBJECT_EQUALS = GetObjectMethod ("equals");
 		
-		static Method GetMethod (String name)
+		static Method GetObjectMethod (String name)
 		{
 			try {
 				return object_class.getMethod (name);
 			} catch (NoSuchMethodException ex) {
+				// should not happen.
 				return null;
 			}
 		}
@@ -57,7 +58,22 @@ public interface Library {
 		public Object invoke(Object proxy, Method method, Object[] inArgs)
        	throws Throwable
 		{
-     		throw new UnsupportedOperationException();
+    		InvocationMapper im = options == null ? null : (InvocationMapper) options.get(Library.OPTION_INVOCATION_MAPPER);
+    		if (im != null)
+    			return im.getInvocationHandler(getNativeLibrary(), method);
+    		else
+    			return defaultInvoke(proxy, method, inArgs);
+		}
+
+		Object defaultInvoke(Object proxy, Method method, Object[] inArgs)
+       	throws Throwable
+       	{
+			String fname = null;
+			FunctionMapper fm = (FunctionMapper) options.get(Library.OPTION_FUNCTION_MAPPER);
+			if (fm != null)
+				fname = fm.getFunctionName(getNativeLibrary(), method);
+			Function f = getNativeLibrary().getFunction(fname, method);
+			return f.invoke(method.getReturnType(), inArgs, options);
 		}
 	}
 	

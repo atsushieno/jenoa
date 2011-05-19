@@ -23,7 +23,6 @@ public class IntegerType extends Number implements NativeMapped {
 	
 	public Object toNative()
 	{
-		/*
 		switch (size) {
 		case 1:
 			return new Byte ((byte) value);
@@ -34,14 +33,23 @@ public class IntegerType extends Number implements NativeMapped {
 		case 8:
 			return new Long (value);
 		}
-		*/
-		throw new UnsupportedOperationException ();
+		throw new IllegalStateException();
 	}
 	
 	public Object fromNative(Object nativeValue,
  FromNativeContext context)
 	{
-		throw new UnsupportedOperationException ();
+		switch (size) {
+		case 1:
+			return (Byte) nativeValue;
+		case 2:
+			return (Short) nativeValue;
+		case 4:
+			return (Integer) nativeValue;
+		case 8:
+			return (Long) nativeValue;
+		}
+		throw new IllegalStateException();
 	}
 	
 	public Class nativeType()
@@ -56,7 +64,7 @@ public class IntegerType extends Number implements NativeMapped {
 		case 8:
 			return Long.class;
 		}
-		throw new UnsupportedOperationException ();
+		throw new IllegalStateException();
 	}
 	
 	public int intValue()

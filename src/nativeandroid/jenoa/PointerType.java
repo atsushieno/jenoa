@@ -1,5 +1,7 @@
 package nativeandroid.jenoa;
 
+import java.util.Map;
+
 public abstract class PointerType implements NativeMapped {
 	protected PointerType()
 	{
@@ -13,14 +15,16 @@ public abstract class PointerType implements NativeMapped {
 		this.p = p;
 	}
 	
+	static final IntegerType pointer_integer_type = new IntegerType(Pointer.SIZE);
+	
 	public Class nativeType()
 	{
-		throw new UnsupportedOperationException();
+		return pointer_integer_type.nativeType();
 	}
 	
 	public Object toNative()
 	{
-		throw new UnsupportedOperationException();
+		return p.peer;
 	}
 	
 	public Pointer getPointer()
@@ -35,7 +39,7 @@ public abstract class PointerType implements NativeMapped {
 	
 	public Object fromNative(Object nativeValue, FromNativeContext context)
 	{
-		throw new UnsupportedOperationException();
+		return new Pointer ((Long) pointer_integer_type.fromNative(nativeValue, context));
 	}
 	
 	public int hashCode()

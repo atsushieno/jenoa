@@ -2,6 +2,8 @@ package nativeandroid.jenoa;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Proxy;
 import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.Map;
@@ -124,7 +126,7 @@ public class Native {
 	
 	public static Object loadLibrary(Class interfaceClass, Map options)
 	{
-		throw new UnsupportedOperationException();
+		return loadLibrary (NativeLibrary.getProcess(options).name, interfaceClass, options);
 	}
 	
 	public static Object loadLibrary(String name, Class interfaceClass)
@@ -134,7 +136,9 @@ public class Native {
 	
 	public static Object loadLibrary(String name, Class interfaceClass, Map options)
 	{
-		throw new UnsupportedOperationException();
+		// FIXME: instantiate Library.Handler every time?
+		// FIXME: create new proxy instance every time?
+		return Proxy.newProxyInstance(interfaceClass.getClassLoader(), interfaceClass.getInterfaces(), new Library.Handler(name, interfaceClass, options));
 	}
 	
 	static Class findEnclosingLibraryClass(Class cls)

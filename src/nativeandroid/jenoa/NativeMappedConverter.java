@@ -1,15 +1,27 @@
 package nativeandroid.jenoa;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class NativeMappedConverter implements TypeConverter {
+	
+	static Map<Class,NativeMappedConverter> instances = new HashMap<Class,NativeMappedConverter>();
 	
 	public static NativeMappedConverter getInstance(Class cls)
 	{
-		throw new UnsupportedOperationException();
+		NativeMappedConverter c = (NativeMappedConverter) instances.get(cls);
+		if (c == null) {
+			c = new NativeMappedConverter(cls);
+			instances.put(cls, c);
+		}
+		return c;
 	}
+	
+	Class native_type;
 	
 	public NativeMappedConverter(Class type)
 	{
-		throw new UnsupportedOperationException();
+		native_type = type;
 	}
 	
 	public NativeMapped defaultValue()
@@ -24,7 +36,7 @@ public class NativeMappedConverter implements TypeConverter {
 	
 	public Class nativeType()
 	{
-		throw new UnsupportedOperationException();
+		return native_type;
 	}
 	
 	public Object toNative(Object value, ToNativeContext context)
