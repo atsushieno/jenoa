@@ -22,29 +22,40 @@ public interface Library {
 				return null;
 			}
 		}
+		
+		String libname;
+		Class iface_class;
+		Map options;
+		NativeLibrary native_library;
 
 		public Handler(String libname, Class interfaceClass, Map options)
         {
-			throw new UnsupportedOperationException();
+			this.libname = libname;
+			this.iface_class = interfaceClass;
+			this.options = options;
         }
 		
 		public NativeLibrary getNativeLibrary()
 		{
-			throw new UnsupportedOperationException();
+			if (native_library == null) {
+				native_library = new NativeLibrary (libname);
+				options.putAll(native_library.getOptions());
+			}
+			return native_library;
 		}
 		
 		public String getLibraryName()
 		{
-			throw new UnsupportedOperationException();
+			return libname;
 		}
 		
 		public Class getInterfaceClass()
 		{
-			throw new UnsupportedOperationException();
+			return iface_class;
 		}
 		
 		public Object invoke(Object proxy, Method method, Object[] inArgs)
-         throws Throwable
+       	throws Throwable
 		{
      		throw new UnsupportedOperationException();
 		}

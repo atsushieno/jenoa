@@ -2,6 +2,8 @@ package nativeandroid.jenoa;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.Charset;
+import java.util.Arrays;
 import java.util.Map;
 
 public class Native {
@@ -22,89 +24,102 @@ public class Native {
 		}
 	}
 	
+	/*
 	public static interface ffi_callback {
 		void invoke(long cif, long resp, long argp);
 	}
-	
-	public static final int POINTER_SIZE = getPointerSize();
-	public static final int LONG_SIZE = getLongSize();
-	public static final int WCHAR_SIZE = getWCharSize();
-	public static final int SIZE_T_SIZE = getSizeTSize();
+	*/
 	
 	static native int getPointerSize();
 	static native int getLongSize();
 	static native int getWCharSize();
 	static native int getSizeTSize();
 	
+	public static final int POINTER_SIZE = getPointerSize();
+	public static final int LONG_SIZE = getLongSize();
+	public static final int WCHAR_SIZE = getWCharSize();
+	public static final int SIZE_T_SIZE = getSizeTSize();
+	
+	static boolean is_protected;
+	static boolean preserve_last_error;
+	
 	public static void setProtected(boolean enable)
 	{
-		throw new UnsupportedOperationException();
+		is_protected = enable;
 	}
 	
 	public static boolean isProtected()
 	{
-		throw new UnsupportedOperationException();
+		return is_protected;
 	}
 	
 	public static void setPreserveLastError(boolean enable)
 	{
-		throw new UnsupportedOperationException();
+		preserve_last_error = enable;
 	}
 	
 	public static boolean getPreserveLastError()
 	{
-		throw new UnsupportedOperationException();
+		return preserve_last_error;
 	}
 	
 	/*
 	public static long getWindowID(Window w)
 		throws HeadlessException
     {
-		throw new UnsupportedOperationException();
     }
 	
 	public static long getComponentID(Component c)
 		throws HeadlessException
     {
-		throw new UnsupportedOperationException();
     }
 	
 	public static Pointer getWindowPointer(Window w)
 		throws HeadlessException
 	{
-			throw new UnsupportedOperationException();
 	}
 	
 	public static Pointer getComponentPointer(Component c)
 		throws HeadlessException
     {
-		throw new UnsupportedOperationException();		
     }
 	
 	public static Pointer getDirectBufferPointer(Buffer b)
 	{
-		throw new UnsupportedOperationException();
 	}
 	*/
 	
 	public static String toString(byte[] buf)
 	{
-		throw new UnsupportedOperationException();
+		return toString(buf, null);
 	}
 	
 	public static String toString(byte[] buf, String encoding)
 	{
-		throw new UnsupportedOperationException();
+		if (encoding == null || !Charset.isSupported(encoding))
+			encoding = Charset.defaultCharset().name();
+		int idx = Arrays.asList(buf).indexOf(0);
+		if (idx < 0)
+			idx = buf.length;
+		try {
+			return new String (buf, 0, idx, encoding);
+		} catch (UnsupportedEncodingException e) {
+			// should not happen
+			return null;
+		}
 	}
 	
 	public static String toString(char[] buf)
 	{
-		throw new UnsupportedOperationException();
+		int idx = Arrays.asList(buf).indexOf('\0');
+		if (idx < 0)
+			idx = buf.length;
+		return new String (buf, 0, idx);
 	}
 	
 	public static Object loadLibrary(Class interfaceClass)
 	{
-		throw new UnsupportedOperationException();
+		return loadLibrary(interfaceClass, null);
 	}
 	
 	public static Object loadLibrary(Class interfaceClass, Map options)
@@ -114,7 +129,7 @@ public class Native {
 	
 	public static Object loadLibrary(String name, Class interfaceClass)
 	{
-		throw new UnsupportedOperationException();
+		return loadLibrary(name, interfaceClass, null);
 	}
 	
 	public static Object loadLibrary(String name, Class interfaceClass, Map options)
@@ -147,9 +162,15 @@ public class Native {
 		throw new UnsupportedOperationException();
 	}
 	
+	static final String default_encoding = Charset.defaultCharset().name();
+	
 	public static byte[] toByteArray(String s)
 	{
-		throw new UnsupportedOperationException();
+		try {
+			return toByteArray(s, default_encoding);
+		} catch(UnsupportedEncodingException ex){
+			return null; // must not happen.
+		}
 	}
 	
 	public static byte[] toByteArray(String s, String encoding)
@@ -188,10 +209,11 @@ public class Native {
 		throw new UnsupportedOperationException();
 	}
 	
+	/*
 	public static String getWebStartLibraryPath(String libName)
 	{
-		throw new UnsupportedOperationException();
 	}
+	*/
 	
 	public static int getNativeSize(Class type, Object value)
 	{
@@ -208,24 +230,26 @@ public class Native {
 		throw new UnsupportedOperationException();
 	}
 	
+	static Callback.UncaughtExceptionHandler callback_exception_handler;
+	
 	public static void setCallbackExceptionHandler(Callback.UncaughtExceptionHandler eh)
 	{
-		throw new UnsupportedOperationException();
+		callback_exception_handler = eh;
 	}
 	
 	public static Callback.UncaughtExceptionHandler getCallbackExceptionHandler()
 	{
-		throw new UnsupportedOperationException();
+		return callback_exception_handler;
 	}
 	
 	public static void register(String libName)
 	{
-		throw new UnsupportedOperationException();
+		register(new NativeLibrary(libName));
 	}
 	
 	public static void register(NativeLibrary lib)
 	{
-		throw new UnsupportedOperationException();
+		register(getCallingClass(), lib);
 	}
 	
 	static Class getNativeClass(Class cls)
@@ -240,7 +264,7 @@ public class Native {
 	
 	public static void unregister()
 	{
-		throw new UnsupportedOperationException();
+		unregister(getCallingClass());
 	}
 	
 	public static void unregister(Class cls)
@@ -257,32 +281,30 @@ public class Native {
 	{
 		throw new UnsupportedOperationException();		
 	}
-	
+
+	// FFI work can be done later
+	/* 
 	public static long ffi_prep_cif(int abi, int nargs, long ffi_return_type, long ffi_types)
 	{
-		throw new UnsupportedOperationException();
 	}
 	
 	public static void ffi_call(long cif, long fptr, long resp, long args)
 	{
-		throw new UnsupportedOperationException();
 	}
 	
 	public static long ffi_prep_closure(long cif, Native.ffi_callback cb)
 	{
-		throw new UnsupportedOperationException();
 	}
 	
 	public static void ffi_free_closure(long closure)
 	{
-		throw new UnsupportedOperationException();
 	}
 	
 	static int initialize_ffi_type(long type_info)
 	{
-		throw new UnsupportedOperationException();
 	}
-	
+	*/
+
 	public static void main(String[] args)
 	{
 		throw new UnsupportedOperationException();

@@ -12,6 +12,7 @@ public class Memory extends Pointer {
 	
 	protected Memory()
 	{
+		// size is supposed to be supplied by derived types.
 	}
 	
 	public static void purge()
@@ -41,7 +42,7 @@ public class Memory extends Pointer {
 	
 	public void clear()
 	{
-		throw new UnsupportedOperationException();
+		setMemory (0, size, (byte) 0);
 	}
 	
 	public boolean isValid()
@@ -56,7 +57,7 @@ public class Memory extends Pointer {
 	
 	public long size()
 	{
-		throw new UnsupportedOperationException();
+		return size;
 	}
 	
 	@Deprecated

@@ -7,13 +7,13 @@ public class IntegerType extends Number implements NativeMapped {
 	
 	public IntegerType(int size)
 	{
-		this.size = size;
+		this(size, 0);
 	}
 	
 	public IntegerType(int size, long value)
 	{
 		this.size = size;
-		this.value = value;
+		setValue(value);
 	}
 	
 	public void setValue(long value)

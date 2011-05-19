@@ -1,6 +1,6 @@
 package nativeandroid.jenoa;
 
-public abstract class PointerType extends Object implements NativeMapped {
+public abstract class PointerType implements NativeMapped {
 	protected PointerType()
 	{
 		this(Pointer.NULL);

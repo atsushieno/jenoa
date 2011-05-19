@@ -3,6 +3,11 @@ package nativeandroid.jenoa;
 
 import java.nio.ByteBuffer;
 
+//
+// Pointer
+//  - Memory
+//	  - StringArray
+//  - Function
 
 public class Pointer {
 	

@@ -15,6 +15,7 @@ public abstract class Structure {
 		
 	}
 	
+	/*
 	static class FFIType extends Structure {
 		
 		public static class size_t extends IntegerType {
@@ -40,9 +41,9 @@ public abstract class Structure {
 		
 		static Pointer get(Object obj)
 		{
-			throw new UnsupportedOperationException();
 		}
 	}
+	*/
 	
 	class StructField {
 		public String name;
@@ -74,28 +75,33 @@ public abstract class Structure {
 	
 	protected Structure()
 	{
-		throw new UnsupportedOperationException();
 	}
 	
 	protected Structure(TypeMapper mapper)
 	{
-		throw new UnsupportedOperationException();
+		setTypeMapper(mapper);
 	}
 	
 	protected Structure(Pointer p)
 	{
-		throw new UnsupportedOperationException();
+		this(p, 0);
 	}
 	
 	protected Structure(Pointer p, int alignment)
 	{
-		throw new UnsupportedOperationException();
+		this(p, alignment, null);
 	}
 	
 	protected Structure(Pointer p, int alignment, TypeMapper mapper)
 	{
-		throw new UnsupportedOperationException();
+		this.p = p;
+		this.alignment = alignment;
+		this.type_mapper = mapper;
 	}
+	
+	Pointer p;
+	int alignment;
+	TypeMapper type_mapper;
 	
 	Map fields()
 	{
@@ -104,12 +110,12 @@ public abstract class Structure {
 	
 	protected void setTypeMapper(TypeMapper mapper)
 	{
-		throw new UnsupportedOperationException();
+		this.type_mapper = mapper;
 	}
 	
 	protected void setAlignType(int alignType)
 	{
-		throw new UnsupportedOperationException();
+		alignment = alignType;
 	}
 	
 	protected Memory autoAllocate(int size)

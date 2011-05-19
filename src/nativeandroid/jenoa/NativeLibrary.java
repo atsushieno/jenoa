@@ -26,13 +26,16 @@ public class NativeLibrary {
 		for (NativeLibrary l : instances)
 			if (l.getName().equals(libraryName))
 				return l;
-		// FIXME: return null or throw?
-		return null;
+		NativeLibrary n = new NativeLibrary(libraryName);
+		if(options != null)
+			options.putAll(n.local_options);
+		instances.add(n);
+		return n;
 	}
 	
 	public static final NativeLibrary getProcess()
 	{
-		throw new UnsupportedOperationException();
+		return getProcess(null);
 	}
 	
 	public static final NativeLibrary getProcess(Map options)

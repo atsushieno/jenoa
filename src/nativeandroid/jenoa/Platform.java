@@ -17,37 +17,37 @@ public final class Platform {
 	
 	public static final boolean isMac()
 	{
-		throw new UnsupportedOperationException();
+		return getOSType() == MAC;
 	}
 	
 	public static final boolean isLinux()
 	{
-		throw new UnsupportedOperationException();
+		return getOSType() == LINUX;
 	}
 	
 	public static final boolean isWindowsCE()
 	{
-		throw new UnsupportedOperationException();
+		return getOSType() == WINDOWSCE;
 	}
 	
 	public static final boolean isWindows()
 	{
-		throw new UnsupportedOperationException();
+		return getOSType() == WINDOWS;
 	}
 	
 	public static final boolean isSolaris()
 	{
-		throw new UnsupportedOperationException();
+		return getOSType() == SOLARIS;
 	}
 	
 	public static final boolean isFreeBSD()
 	{
-		throw new UnsupportedOperationException();
+		return getOSType() == FREEBSD;
 	}
 	
 	public static final boolean isOpenBSD()
 	{
-		throw new UnsupportedOperationException();
+		return getOSType() == OPENBSD;
 	}
 	
 	public static final boolean isX11()
