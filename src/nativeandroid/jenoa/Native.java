@@ -179,9 +179,9 @@ public class Native {
 	
 	public static byte[] toByteArray(String s, String encoding)
     	throws UnsupportedEncodingException
-    {
+	{
 		throw new UnsupportedOperationException();
-    }
+	}
 	
 	public static char[] toCharArray(String s)
 	{

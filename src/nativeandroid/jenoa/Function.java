@@ -52,12 +52,12 @@ public class Function extends Pointer {
 	
 	static boolean isVarArgs(Method m)
 	{
-		throw new UnsupportedOperationException();
+		return m.isVarArgs();
 	}
 	
 	static Boolean valueOf(boolean b)
 	{
-		throw new UnsupportedOperationException();
+		return Boolean.valueOf(b);
 	}
 	
 	int callFlags;
@@ -84,12 +84,13 @@ public class Function extends Pointer {
 	
 	public int getCallingConvention()
 	{
-		throw new UnsupportedOperationException();
+		// ... correct?
+		return callFlags;
 	}
 	
 	public Object invoke(Class returnType, Object[] inArgs)
 	{
-		throw new UnsupportedOperationException();
+		return invoke(returnType, inArgs, null);
 	}
 	
 	public Object invoke(Class returnType, Object[] inArgs, Map options)
@@ -99,66 +100,72 @@ public class Function extends Pointer {
 	
 	Object invoke(Object[] args, Class returnType, boolean allowObjects)
 	{
+		// the documentation says "implementation" that points to NativeLibrary... so it is there?
 		throw new UnsupportedOperationException();
 	}
 	
 	public void invoke(Object[] args)
 	{
-		throw new UnsupportedOperationException();
+		invoke(args, Void.class, true);
 	}
 	
 	@Override
 	public String toString()
 	{
-		return getName();
+		return super.toString(); // why override then??
+		//return getName();
 	}
 	
 	public Object invokeObject(Object[] args)
 	{
-		throw new UnsupportedOperationException();
+		return invoke(Object.class, args);
 	}
 	
 	public Pointer invokePointer(Object[] args)
 	{
-		throw new UnsupportedOperationException();
+		return (Pointer) invoke(Pointer.class, args);
 	}
 	
 	public String invokeString(Object[] args, boolean wide)
 	{
-		throw new UnsupportedOperationException();
+		if (wide)
+			return ((WString) invoke(WString.class, args)).toString();
+		else
+			return (String) invoke(String.class, args);
 	}
 	
 	public int invokeInt(Object[] args)
 	{
-		throw new UnsupportedOperationException();
+		return (Integer) invoke(Integer.class, args);
 	}
 	
 	public long invokeLong(Object[] args)
 	{
-		throw new UnsupportedOperationException();
+		return (Long) invoke(Long.class, args);
 	}
 	
 	public float invokeFloat(Object[] args)
 	{
-		throw new UnsupportedOperationException();
+		return (Float) invoke(Float.class, args);
 	}
 	
 	public double invokeDouble(Object[] args)
 	{
-		throw new UnsupportedOperationException();
+		return (Double) invoke(Double.class, args);
 	}
 	
 	public void invokeVoid(Object[] args)
 	{
-		throw new UnsupportedOperationException();
+		invoke(Void.class, args);
 	}
 	
 	@Override
 	public boolean equals(Object o)
 	{
-		if (!(o instanceof Function))
-			return false;
-		Function f = (Function) o;
-		return library.equals(f.library) && name.equals(f.name);
+		return super.equals(o);
+		//if (!(o instanceof Pointer))
+		//	return false;
+		//Pointer p = (Pointer) o;
+		//return library.equals(f.library) && name.equals(f.name);
 	}
 }

@@ -3,16 +3,16 @@ It is an ongoing attempt to create JNA clone, primarily targetting android.
 Tasks:
 
 implement following types:
-- Function
 - Library
-- Memory
 - Native
 - NativeLibrary
 - NativeMappedConverter
 - Platform
 - Pointer
-- StringArray
+  - Memory
+    - StringArray
+  - Function
 - Structure
-- Union
+  - Union
 - ByReference
 

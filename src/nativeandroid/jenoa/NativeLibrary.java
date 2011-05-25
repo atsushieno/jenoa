@@ -72,9 +72,26 @@ public class NativeLibrary {
 		return new Function(this, functionName, callFlags);
 	}
 	
+	class NamedFunction {
+		public String name;
+		public Method method;
+		public Function function;
+	}
+	
+	List<NamedFunction> functions = new Vector<NamedFunction>();
+	
 	Function getFunction(String name, Method method)
 	{
-		throw new UnsupportedOperationException();
+		for (NamedFunction nf : functions)
+			if (nf.name.equals (name) && nf.method == method)
+				return nf.function;
+		NamedFunction nf = new NamedFunction();
+		nf.name = name;
+		nf.method = method;
+		Integer cc = (Integer) local_options.get(Library.OPTION_CALLING_CONVENTION);
+		nf.function = new Function(this, name, cc);
+		functions.add(nf);
+		return nf.function;
 	}
 	
 	public Map getOptions()
@@ -84,12 +101,15 @@ public class NativeLibrary {
 	
 	public Pointer getGlobalVariableAddress(String symbolName)
 	{
-		throw new UnsupportedOperationException();
+		return new Pointer(getSymbolAddress(symbolName));
 	}
+	
+	static native long dlsym(String name);
 	
 	long getSymbolAddress(String name)
 	{
-		throw new UnsupportedOperationException();
+		// FIXME: canonicalize name
+		return dlsym(name);
 	}
 	
 	@Override
