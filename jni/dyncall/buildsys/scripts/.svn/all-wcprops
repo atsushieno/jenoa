@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dyncall/!svn/ver/1079/trunk/dyncall/buildsys/scripts
+END
+batch-build-linux.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/934/trunk/dyncall/buildsys/scripts/batch-build-linux.sh
+END
+setenv-sdk-ios.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/901/trunk/dyncall/buildsys/scripts/setenv-sdk-ios.sh
+END
+batch-build-minix.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/934/trunk/dyncall/buildsys/scripts/batch-build-minix.sh
+END
+setenv-cross-ios.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/1079/trunk/dyncall/buildsys/scripts/setenv-cross-ios.sh
+END

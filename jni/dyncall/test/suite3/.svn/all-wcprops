@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/dyncall/!svn/ver/1119/trunk/dyncall/test/suite3
+END
+case.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite3/case.cc
+END
+case.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/170/trunk/dyncall/test/suite3/case.h
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/1119/trunk/dyncall/test/suite3/Makefile.embedded
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/241/trunk/dyncall/test/suite3/BSDmakefile
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/1096/trunk/dyncall/test/suite3/GNUmakefile
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/904/trunk/dyncall/test/suite3/Makefile.generic
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite3/main.cc
+END
+mkcase.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/suite3/mkcase.py
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/639/trunk/dyncall/test/suite3/Nmakefile
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/184/trunk/dyncall/test/suite3/README.txt
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/170/trunk/dyncall/test/suite3/config.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite3/CMakeLists.txt
+END
+Makefile.psp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/398/trunk/dyncall/test/suite3/Makefile.psp
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/nmake
+END
+tool_msvc.nmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/nmake/tool_msvc.nmake
+END
+common.nmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/241/trunk/dyncall/buildsys/nmake/common.nmake
+END
+tool_gcc.nmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/nmake/tool_gcc.nmake
+END
+epilog.nmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/472/trunk/dyncall/buildsys/nmake/epilog.nmake
+END
+prolog.nmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/508/trunk/dyncall/buildsys/nmake/prolog.nmake
+END

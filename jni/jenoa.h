@@ -25,7 +25,7 @@ extern "C" {
  * Signature: ()V
  */
 JNIEXPORT void JNICALL Java_nativeandroid_jenoa_LibDL_init_1libdl
-  (JNIEnv *, jclass);
+  (JNIEnv *, jobject);
 
 /*
  * Class:     nativeandroid_jenoa_LibDL
@@ -33,7 +33,23 @@ JNIEXPORT void JNICALL Java_nativeandroid_jenoa_LibDL_init_1libdl
  * Signature: ()V
  */
 JNIEXPORT void JNICALL Java_nativeandroid_jenoa_LibDL_cleanup_1libdl
-  (JNIEnv *, jclass);
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    init_dyncall
+ * Signature: ()J
+ */
+JNIEXPORT jlong JNICALL Java_nativeandroid_jenoa_LibDL_init_1dyncall
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    cleanup_dyncall
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_nativeandroid_jenoa_LibDL_cleanup_1dyncall
+  (JNIEnv *, jobject, jlong);
 
 /*
  * Class:     nativeandroid_jenoa_LibDL
@@ -66,6 +82,78 @@ JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_LibDL_dlclose
  */
 JNIEXPORT jlong JNICALL Java_nativeandroid_jenoa_LibDL_dlsym
   (JNIEnv *, jobject, jlong, jstring);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokeBoolean
+ * Signature: (JJ[Ljava/lang/Object;)Z
+ */
+JNIEXPORT jboolean JNICALL Java_nativeandroid_jenoa_LibDL_invokeBoolean
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokeByte
+ * Signature: (JJ[Ljava/lang/Object;)B
+ */
+JNIEXPORT jbyte JNICALL Java_nativeandroid_jenoa_LibDL_invokeByte
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokeShort
+ * Signature: (JJ[Ljava/lang/Object;)S
+ */
+JNIEXPORT jshort JNICALL Java_nativeandroid_jenoa_LibDL_invokeShort
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokeInt
+ * Signature: (JJ[Ljava/lang/Object;)I
+ */
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_LibDL_invokeInt
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokeLong
+ * Signature: (JJ[Ljava/lang/Object;)J
+ */
+JNIEXPORT jlong JNICALL Java_nativeandroid_jenoa_LibDL_invokeLong
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokeFloat
+ * Signature: (JJ[Ljava/lang/Object;)F
+ */
+JNIEXPORT jfloat JNICALL Java_nativeandroid_jenoa_LibDL_invokeFloat
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokeDouble
+ * Signature: (JJ[Ljava/lang/Object;)D
+ */
+JNIEXPORT jdouble JNICALL Java_nativeandroid_jenoa_LibDL_invokeDouble
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokeVoid
+ * Signature: (JJ[Ljava/lang/Object;)V
+ */
+JNIEXPORT void JNICALL Java_nativeandroid_jenoa_LibDL_invokeVoid
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
+
+/*
+ * Class:     nativeandroid_jenoa_LibDL
+ * Method:    invokePointer
+ * Signature: (JJ[Ljava/lang/Object;)J
+ */
+JNIEXPORT jlong JNICALL Java_nativeandroid_jenoa_LibDL_invokePointer
+  (JNIEnv *, jobject, jlong, jlong, jobjectArray);
 
 #ifdef __cplusplus
 }

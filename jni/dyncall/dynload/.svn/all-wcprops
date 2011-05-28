@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/dyncall/!svn/ver/1117/trunk/dyncall/dynload
+END
+dynload_darwin.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dynload/dynload_darwin.c
+END
+dynload.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dynload/dynload.h
+END
+dynload_macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/398/trunk/dyncall/dynload/dynload_macros.h
+END
+dynload_windows.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1028/trunk/dyncall/dynload/dynload_windows.c
+END
+dynload_syms.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1017/trunk/dyncall/dynload/dynload_syms.c
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dyncall/!svn/ver/866/trunk/dyncall/dynload/GNUmakefile
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/949/trunk/dyncall/dynload/Makefile.generic
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dyncall/!svn/ver/472/trunk/dyncall/dynload/Nmakefile
+END
+DynLoadConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/815/trunk/dyncall/dynload/DynLoadConfig.cmake
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1081/trunk/dyncall/dynload/Makefile.embedded
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/dyncall/!svn/ver/917/trunk/dyncall/dynload/TODO
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dyncall/!svn/ver/290/trunk/dyncall/dynload/BSDmakefile
+END
+dynload_syms_pe.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1043/trunk/dyncall/dynload/dynload_syms_pe.c
+END
+dynload_syms_mach-o.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/1034/trunk/dyncall/dynload/dynload_syms_mach-o.c
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/646/trunk/dyncall/dynload/README.txt
+END
+dynload.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/1030/trunk/dyncall/dynload/dynload.c
+END
+dynload_syms_elf.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/1117/trunk/dyncall/dynload/dynload_syms_elf.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/695/trunk/dyncall/dynload/CMakeLists.txt
+END
+dynload_unix.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dynload/dynload_unix.c
+END

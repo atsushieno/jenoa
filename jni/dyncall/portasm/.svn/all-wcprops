@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/dyncall/!svn/ver/1117/trunk/dyncall/portasm
+END
+portasm-arm.S
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/912/trunk/dyncall/portasm/portasm-arm.S
+END
+portasm-x64.S
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/912/trunk/dyncall/portasm/portasm-x64.S
+END
+portasm-ppc.S
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/912/trunk/dyncall/portasm/portasm-ppc.S
+END
+autovar_OS.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/1117/trunk/dyncall/portasm/autovar_OS.h
+END
+portasm-x86.S
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/1067/trunk/dyncall/portasm/portasm-x86.S
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/912/trunk/dyncall/portasm/README.txt
+END
+gen-masm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dyncall/!svn/ver/912/trunk/dyncall/portasm/gen-masm.sh
+END

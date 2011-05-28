@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dyncall/!svn/ver/844/trunk/dyncall/buildsys/gmake/os
+END
+linux.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/os/linux.gmake
+END
+cygwin.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/os/cygwin.gmake
+END
+psp.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/241/trunk/dyncall/buildsys/gmake/os/psp.gmake
+END
+sunos.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/241/trunk/dyncall/buildsys/gmake/os/sunos.gmake
+END
+freebsd.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/os/freebsd.gmake
+END
+generic.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/844/trunk/dyncall/buildsys/gmake/os/generic.gmake
+END
+netbsd.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/os/netbsd.gmake
+END
+darwin.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/431/trunk/dyncall/buildsys/gmake/os/darwin.gmake
+END
+iphoneos.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/681/trunk/dyncall/buildsys/gmake/os/iphoneos.gmake
+END
+nds.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/os/nds.gmake
+END
+dragonfly.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/os/dragonfly.gmake
+END
+beos.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/511/trunk/dyncall/buildsys/gmake/os/beos.gmake
+END
+macosx.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/666/trunk/dyncall/buildsys/gmake/os/macosx.gmake
+END
+openbsd.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/os/openbsd.gmake
+END
+windows.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/os/windows.gmake
+END
+msys.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/464/trunk/dyncall/buildsys/gmake/os/msys.gmake
+END

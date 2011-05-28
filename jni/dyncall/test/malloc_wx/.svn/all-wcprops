@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/dyncall/!svn/ver/1072/trunk/dyncall/test/malloc_wx
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/1072/trunk/dyncall/test/malloc_wx/Makefile.embedded
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/307/trunk/dyncall/test/malloc_wx/BSDmakefile
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/866/trunk/dyncall/test/malloc_wx/GNUmakefile
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/904/trunk/dyncall/test/malloc_wx/Makefile.generic
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/323/trunk/dyncall/test/malloc_wx/Nmakefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/728/trunk/dyncall/test/malloc_wx/CMakeLists.txt
+END
+test_wx.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/410/trunk/dyncall/test/malloc_wx/test_wx.c
+END

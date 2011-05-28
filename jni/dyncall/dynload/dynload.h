@@ -1,0 +1,66 @@
+/*
+ Package: dynload
+ File: include/dynload.h
+ Description: main header file for dynload
+ License:
+
+ Copyright (c) 2007-2010 Daniel Adler <dadler@uni-goettingen.de>, 
+                         Tassilo Philipp <tphilipp@potion-studios.com>
+
+ Permission to use, copy, modify, and distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+*/
+
+#ifndef DYNLOAD_H
+#define DYNLOAD_H
+
+
+#include "../dyncall/dyncall_alloc.h"
+#include "../dyncall/dyncall_macros.h"
+#include "dynload_macros.h"
+#include <stddef.h>
+#include <stdlib.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+/* --- public api ---------------------------------------------------------- */
+
+/* shared library loading and explicit symbol resolving */
+
+typedef struct DLLib_ DLLib;
+
+DC_API DLLib* dlLoadLibrary(const char* libpath);
+DC_API void   dlFreeLibrary(DLLib* pLib);
+DC_API void*  dlFindSymbol(DLLib* pLib, const char* pSymbolName);
+
+/* symbol table enumeration - only for symbol lookup, not resolve */
+
+typedef struct DLSyms_ DLSyms;
+
+DLSyms*     dlSymsInit   (const char* libPath);
+void        dlSymsCleanup(DLSyms* pSyms);
+
+int         dlSymsCount        (DLSyms* pSyms);
+const char* dlSymsName         (DLSyms* pSyms, int index);
+const char* dlSymsNameFromValue(DLSyms* pSyms, void* value); /* symbol must be loaded */
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* DYNLOAD_H */
+

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/dyncall/!svn/ver/1016/trunk/dyncall/doc/callconvs
+END
+callconv_x64.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/526/trunk/dyncall/doc/callconvs/callconv_x64.tex
+END
+callconv_mips64.tex
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/599/trunk/dyncall/doc/callconvs/callconv_mips64.tex
+END
+callconv_arm32.tex
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/668/trunk/dyncall/doc/callconvs/callconv_arm32.tex
+END
+callconv_x86.tex
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1016/trunk/dyncall/doc/callconvs/callconv_x86.tex
+END
+callconv_ppc32.tex
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/526/trunk/dyncall/doc/callconvs/callconv_ppc32.tex
+END
+callconv_mips.tex
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/331/trunk/dyncall/doc/callconvs/callconv_mips.tex
+END
+callconv_ppc64.tex
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/241/trunk/dyncall/doc/callconvs/callconv_ppc64.tex
+END

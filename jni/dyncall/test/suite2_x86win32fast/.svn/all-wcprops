@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite2_x86win32fast
+END
+case.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite2_x86win32fast/case.cc
+END
+case.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/suite2_x86win32fast/case.h
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dyncall/!svn/ver/241/trunk/dyncall/test/suite2_x86win32fast/BSDmakefile
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dyncall/!svn/ver/241/trunk/dyncall/test/suite2_x86win32fast/GNUmakefile
+END
+design.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/suite2_x86win32fast/design.cfg
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dyncall/!svn/ver/1056/trunk/dyncall/test/suite2_x86win32fast/Makefile.generic
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite2_x86win32fast/main.cc
+END
+mkcase.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/suite2_x86win32fast/mkcase.py
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/639/trunk/dyncall/test/suite2_x86win32fast/Nmakefile
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/suite2_x86win32fast/config.h
+END
+rand.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/suite2_x86win32fast/rand.py
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite2_x86win32fast/CMakeLists.txt
+END
+funcinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/184/trunk/dyncall/test/suite2_x86win32fast/funcinfo.h
+END

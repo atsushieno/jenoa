@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/dyncall/!svn/ver/1113/trunk/dyncall/test/nm
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1072/trunk/dyncall/test/nm/Makefile.embedded
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dyncall/!svn/ver/241/trunk/dyncall/test/nm/BSDmakefile
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dyncall/!svn/ver/607/trunk/dyncall/test/nm/GNUmakefile
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/933/trunk/dyncall/test/nm/Makefile.generic
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dyncall/!svn/ver/797/trunk/dyncall/test/nm/Nmakefile
+END
+nm.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/dyncall/!svn/ver/1113/trunk/dyncall/test/nm/nm.c
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dyncall/!svn/ver/678/trunk/dyncall/test/hacking-arm-thumb-interwork/diff-gcc-defs
+END
+empty.S
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/dyncall/!svn/ver/669/trunk/dyncall/test/hacking-arm-thumb-interwork/diff-gcc-defs/empty.S
+END
+empty.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/dyncall/!svn/ver/669/trunk/dyncall/test/hacking-arm-thumb-interwork/diff-gcc-defs/empty.c
+END
+diff-generic.sh
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dyncall/!svn/ver/678/trunk/dyncall/test/hacking-arm-thumb-interwork/diff-gcc-defs/diff-generic.sh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/dyncall/!svn/ver/678/trunk/dyncall/test/hacking-arm-thumb-interwork/diff-gcc-defs/Makefile
+END

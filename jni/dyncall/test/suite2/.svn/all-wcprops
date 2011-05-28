@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/dyncall/!svn/ver/1119/trunk/dyncall/test/suite2
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/866/trunk/dyncall/test/suite2/GNUmakefile
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1060/trunk/dyncall/test/suite2/Makefile.generic
+END
+mkcase.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/suite2/mkcase.py
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/639/trunk/dyncall/test/suite2/Nmakefile
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/622/trunk/dyncall/test/suite2/config.h
+END
+funcinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/184/trunk/dyncall/test/suite2/funcinfo.h
+END
+case.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite2/case.cc
+END
+case.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/622/trunk/dyncall/test/suite2/case.h
+END
+stress1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/621/trunk/dyncall/test/suite2/stress1.cfg
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/1119/trunk/dyncall/test/suite2/Makefile.embedded
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/621/trunk/dyncall/test/suite2/BSDmakefile
+END
+design.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/622/trunk/dyncall/test/suite2/design.cfg
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite2/main.cc
+END
+ints.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/613/trunk/dyncall/test/suite2/ints.cfg
+END
+rand.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/suite2/rand.py
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/suite2/CMakeLists.txt
+END

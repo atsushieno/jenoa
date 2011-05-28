@@ -1,0 +1,52 @@
+10
+
+dir
+1142
+http://dyncall.org/svn/dyncall/trunk/dyncall/buildsys
+http://dyncall.org/svn/dyncall
+
+
+
+2011-05-04T16:27:31.593866Z
+1089
+dadler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c71cb566-5a31-4692-9165-cf76bdc42cab
+
+vs2005
+dir
+
+cmake
+dir
+
+lua
+dir
+
+gmake
+dir
+
+bsdmake
+dir
+
+mk
+dir
+
+scripts
+dir
+
+nmake
+dir
+

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/dyncall/!svn/ver/1119/trunk/dyncall/test/ellipsis
+END
+case.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/ellipsis/case.h
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/1119/trunk/dyncall/test/ellipsis/Makefile.embedded
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/241/trunk/dyncall/test/ellipsis/BSDmakefile
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/643/trunk/dyncall/test/ellipsis/GNUmakefile
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/904/trunk/dyncall/test/ellipsis/Makefile.generic
+END
+ellipsis.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/ellipsis/ellipsis.cc
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/ellipsis/main.cc
+END
+mkcase.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/294/trunk/dyncall/test/ellipsis/mkcase.py
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/778/trunk/dyncall/test/ellipsis/Nmakefile
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/184/trunk/dyncall/test/ellipsis/README.txt
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/154/trunk/dyncall/test/ellipsis/config.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/test/ellipsis/CMakeLists.txt
+END

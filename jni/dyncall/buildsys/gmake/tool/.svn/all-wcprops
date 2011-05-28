@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/gmake/tool
+END
+gcc.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/gmake/tool/gcc.gmake
+END
+gcc_release.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/241/trunk/dyncall/buildsys/gmake/tool/gcc_release.gmake
+END
+latex.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/241/trunk/dyncall/buildsys/gmake/tool/latex.gmake
+END
+msvc_debug.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/tool/msvc_debug.gmake
+END
+nasm.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/tool/nasm.gmake
+END
+dm.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/398/trunk/dyncall/buildsys/gmake/tool/dm.gmake
+END
+gcc_debug.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/294/trunk/dyncall/buildsys/gmake/tool/gcc_debug.gmake
+END
+pspsdk.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/tool/pspsdk.gmake
+END
+pcc.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/gmake/tool/pcc.gmake
+END
+llvm_gcc.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/664/trunk/dyncall/buildsys/gmake/tool/llvm_gcc.gmake
+END
+ml.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/398/trunk/dyncall/buildsys/gmake/tool/ml.gmake
+END
+msvc.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/gmake/tool/msvc.gmake
+END
+msvc_release.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dyncall/!svn/ver/342/trunk/dyncall/buildsys/gmake/tool/msvc_release.gmake
+END

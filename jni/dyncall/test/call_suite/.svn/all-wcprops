@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dyncall/!svn/ver/1134/trunk/dyncall/test/call_suite
+END
+cases.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/1092/trunk/dyncall/test/call_suite/cases.c
+END
+mk-cases.lua
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1092/trunk/dyncall/test/call_suite/mk-cases.lua
+END
+rand-sig.lua
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1092/trunk/dyncall/test/call_suite/rand-sig.lua
+END
+cases.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/1116/trunk/dyncall/test/call_suite/cases.h
+END
+config.lua
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/1116/trunk/dyncall/test/call_suite/config.lua
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/1116/trunk/dyncall/test/call_suite/GNUmakefile
+END
+design.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/1116/trunk/dyncall/test/call_suite/design.txt
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/1106/trunk/dyncall/test/call_suite/Makefile.generic
+END
+globals.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1132/trunk/dyncall/test/call_suite/globals.c
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/1115/trunk/dyncall/test/call_suite/Makefile.embedded
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1134/trunk/dyncall/test/call_suite/main.c
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/1103/trunk/dyncall/test/call_suite/BSDmakefile
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1132/trunk/dyncall/test/call_suite/mkfile
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1116/trunk/dyncall/test/call_suite/globals.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/1083/trunk/dyncall/test/call_suite/README.txt
+END
+invoke.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1133/trunk/dyncall/test/call_suite/invoke.c
+END
+cases.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1116/trunk/dyncall/test/call_suite/cases.txt
+END

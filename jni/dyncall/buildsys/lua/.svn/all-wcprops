@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/dyncall/!svn/ver/1089/trunk/dyncall/buildsys/lua
+END
+cleanup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/1089/trunk/dyncall/buildsys/lua/cleanup.sh
+END
+bootstrap.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1089/trunk/dyncall/buildsys/lua/bootstrap.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/1089/trunk/dyncall/buildsys/lua/README.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/1084/trunk/dyncall/buildsys/lua/Makefile
+END
+setenv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1084/trunk/dyncall/buildsys/lua/setenv.sh
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/gmake
+END
+epilog.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/844/trunk/dyncall/buildsys/gmake/epilog.gmake
+END
+prolog.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/812/trunk/dyncall/buildsys/gmake/prolog.gmake
+END
+install.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/858/trunk/dyncall/buildsys/gmake/install.gmake
+END
+targets.gmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/858/trunk/dyncall/buildsys/gmake/targets.gmake
+END

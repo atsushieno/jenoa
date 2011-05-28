@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/bsdmake
+END
+gcc.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/538/trunk/dyncall/buildsys/bsdmake/gcc.bsdmake
+END
+epilog.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/558/trunk/dyncall/buildsys/bsdmake/epilog.bsdmake
+END
+prolog.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/489/trunk/dyncall/buildsys/bsdmake/prolog.bsdmake
+END
+implied.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/1086/trunk/dyncall/buildsys/bsdmake/implied.bsdmake
+END
+unix.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/241/trunk/dyncall/buildsys/bsdmake/unix.bsdmake
+END
+pcc.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/558/trunk/dyncall/buildsys/bsdmake/pcc.bsdmake
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/290/trunk/dyncall/buildsys/bsdmake/README.txt
+END
+common.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/519/trunk/dyncall/buildsys/bsdmake/common.bsdmake
+END
+osx.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/290/trunk/dyncall/buildsys/bsdmake/osx.bsdmake
+END
+targets.bsdmake
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/571/trunk/dyncall/buildsys/bsdmake/targets.bsdmake
+END

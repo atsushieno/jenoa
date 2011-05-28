@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/1013/trunk/dyncall/test/hacking-arm-thumb-interwork
+END
+Makefile.darwin
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/dyncall/!svn/ver/865/trunk/dyncall/test/hacking-arm-thumb-interwork/Makefile.darwin
+END
+arm.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dyncall/!svn/ver/653/trunk/dyncall/test/hacking-arm-thumb-interwork/arm.c
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dyncall/!svn/ver/656/trunk/dyncall/test/hacking-arm-thumb-interwork/test.c
+END
+thumb.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dyncall/!svn/ver/653/trunk/dyncall/test/hacking-arm-thumb-interwork/thumb.c
+END
+Makefile.linux
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dyncall/!svn/ver/657/trunk/dyncall/test/hacking-arm-thumb-interwork/Makefile.linux
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dyncall/!svn/ver/865/trunk/dyncall/test/hacking-arm-thumb-interwork/README.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dyncall/!svn/ver/660/trunk/dyncall/test/hacking-arm-thumb-interwork/Makefile
+END

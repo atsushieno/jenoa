@@ -1,0 +1,509 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/dyncall/!svn/ver/1132/trunk/dyncall/dyncall
+END
+dyncall_callvm_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/763/trunk/dyncall/dyncall/dyncall_callvm_x86.h
+END
+dyncall_call_mips_eabi.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/628/trunk/dyncall/dyncall/dyncall_call_mips_eabi.h
+END
+dyncall_call_x86_8a.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/763/trunk/dyncall/dyncall/dyncall_call_x86_8a.s
+END
+dyncall_callvm_mips_n64.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_callvm_mips_n64.c
+END
+dyncall_call_x86.S
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/1058/trunk/dyncall/dyncall/dyncall_call_x86.S
+END
+dyncall_vector.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1066/trunk/dyncall/dyncall/dyncall_vector.c
+END
+dyncall_callvm_mips_n64.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/623/trunk/dyncall/dyncall/dyncall_callvm_mips_n64.h
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/Nmakefile
+END
+dyncall_vector.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/763/trunk/dyncall/dyncall/dyncall_vector.h
+END
+dyncall_call_arm32_thumb_apple.s
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dyncall/!svn/ver/650/trunk/dyncall/dyncall/dyncall_call_arm32_thumb_apple.s
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/dyncall/!svn/ver/1132/trunk/dyncall/dyncall/mkfile
+END
+dyncall_value.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/294/trunk/dyncall/dyncall/dyncall_value.h
+END
+dyncall_callf.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/361/trunk/dyncall/dyncall/dyncall_callf.c
+END
+dyncall_callvm_arm32_thumb.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_callvm_arm32_thumb.c
+END
+dyncall_struct.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_struct.c
+END
+dyncall_call_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/818/trunk/dyncall/dyncall/dyncall_call_x86.h
+END
+dyncall_callvm_mips_eabi.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_callvm_mips_eabi.c
+END
+dyncall_callvm_arm32_thumb.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dyncall/!svn/ver/504/trunk/dyncall/dyncall/dyncall_callvm_arm32_thumb.h
+END
+dyncall_callf.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/361/trunk/dyncall/dyncall/dyncall_callf.h
+END
+dyncall_struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_struct.h
+END
+dyncall_call_mips_n32.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/628/trunk/dyncall/dyncall/dyncall_call_mips_n32.h
+END
+dyncall_callvm_mips_eabi.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/610/trunk/dyncall/dyncall/dyncall_callvm_mips_eabi.h
+END
+dyncall_call_mips_o32.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/620/trunk/dyncall/dyncall/dyncall_call_mips_o32.h
+END
+dyncall_call_x86_nasm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/753/trunk/dyncall/dyncall/dyncall_call_x86_nasm.asm
+END
+dyncall_call_mips_eabi_gas.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dyncall/!svn/ver/608/trunk/dyncall/dyncall/dyncall_call_mips_eabi_gas.s
+END
+dyncall_call_arm32_arm.S
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/913/trunk/dyncall/dyncall/dyncall_call_arm32_arm.S
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/GNUmakefile
+END
+dyncall_call_ppc32.S
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/913/trunk/dyncall/dyncall/dyncall_call_ppc32.S
+END
+DynCallConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/815/trunk/dyncall/dyncall/DynCallConfig.cmake
+END
+dyncall_callvm_mips.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/628/trunk/dyncall/dyncall/dyncall_callvm_mips.c
+END
+dyncall_api.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_api.c
+END
+dyncall_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/596/trunk/dyncall/dyncall/dyncall_types.h
+END
+dyncall_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/294/trunk/dyncall/dyncall/dyncall_config.h
+END
+dyncall_callvm_mips.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/608/trunk/dyncall/dyncall/dyncall_callvm_mips.h
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1076/trunk/dyncall/dyncall/Makefile.embedded
+END
+dyncall_callvm_x64.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_callvm_x64.c
+END
+dyncall_call_arm32_thumb.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/504/trunk/dyncall/dyncall/dyncall_call_arm32_thumb.h
+END
+dyncall_call_arm32_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/913/trunk/dyncall/dyncall/dyncall_call_arm32_arm.h
+END
+dyncall_call_sparc.S
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1094/trunk/dyncall/dyncall/dyncall_call_sparc.S
+END
+dyncall_call_x64_generic_masm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dyncall/!svn/ver/883/trunk/dyncall/dyncall/dyncall_call_x64_generic_masm.asm
+END
+dyncall_callvm_x64.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1031/trunk/dyncall/dyncall/dyncall_callvm_x64.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/290/trunk/dyncall/dyncall/README.txt
+END
+dyncall_call_ppc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/244/trunk/dyncall/dyncall/dyncall_call_ppc32.h
+END
+Makefile.psp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/610/trunk/dyncall/dyncall/Makefile.psp
+END
+dyncall_call_x64.S
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/913/trunk/dyncall/dyncall/dyncall_call_x64.S
+END
+dyncall_call_mips_n64.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/628/trunk/dyncall/dyncall/dyncall_call_mips_n64.h
+END
+dyncall_call_mips_n32_gas.s
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/732/trunk/dyncall/dyncall/dyncall_call_mips_n32_gas.s
+END
+dyncall_call_mips_o32_gas.s
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/732/trunk/dyncall/dyncall/dyncall_call_mips_o32_gas.s
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1034/trunk/dyncall/dyncall/Makefile.generic
+END
+dyncall_call_sparc.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1065/trunk/dyncall/dyncall/dyncall_call_sparc.h
+END
+dyncall_callvm_base.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/628/trunk/dyncall/dyncall/dyncall_callvm_base.c
+END
+dyncall_callvm.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1065/trunk/dyncall/dyncall/dyncall_callvm.c
+END
+dyncall_callvm_sparc64.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/1114/trunk/dyncall/dyncall/dyncall_callvm_sparc64.c
+END
+dyncall_call_x64.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/290/trunk/dyncall/dyncall/dyncall_call_x64.h
+END
+dyncall_callvm_arm32_arm.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_callvm_arm32_arm.c
+END
+dyncall_callvm.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1093/trunk/dyncall/dyncall/dyncall_callvm.h
+END
+dyncall_callvm_sparc64.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/1111/trunk/dyncall/dyncall/dyncall_callvm_sparc64.h
+END
+dyncall_callvm_ppc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1043/trunk/dyncall/dyncall/dyncall_callvm_ppc32.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/CMakeLists.txt
+END
+dyncall_callvm_arm32_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/504/trunk/dyncall/dyncall/dyncall_callvm_arm32_arm.h
+END
+dyncall_call_arm32_thumb_gas.s
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dyncall/!svn/ver/650/trunk/dyncall/dyncall/dyncall_call_arm32_thumb_gas.s
+END
+dyncall_callvm_mips_n32.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_callvm_mips_n32.c
+END
+dyncall_macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/1117/trunk/dyncall/dyncall/dyncall_macros.h
+END
+dyncall_callvm_mips_o32.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_callvm_mips_o32.c
+END
+dyncall_callvm_ppc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/244/trunk/dyncall/dyncall/dyncall_callvm_ppc32.h
+END
+dyncall_call.S
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1064/trunk/dyncall/dyncall/dyncall_call.S
+END
+dyncall_call_sparc64.S
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1114/trunk/dyncall/dyncall/dyncall_call_sparc64.S
+END
+dyncall_callvm_mips_o32.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dyncall/!svn/ver/623/trunk/dyncall/dyncall/dyncall_callvm_mips_o32.h
+END
+dyncall_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/290/trunk/dyncall/dyncall/dyncall_alloc.h
+END
+dyncall_call_mips_n64_gas.s
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/732/trunk/dyncall/dyncall/dyncall_call_mips_n64_gas.s
+END
+dyncall_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/608/trunk/dyncall/dyncall/dyncall_utils.h
+END
+dyncall_callvm_sparc.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1093/trunk/dyncall/dyncall/dyncall_callvm_sparc.c
+END
+dyncall_signature.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_signature.h
+END
+README-Developer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/872/trunk/dyncall/dyncall/README-Developer.txt
+END
+dyncall_call_mips.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/628/trunk/dyncall/dyncall/dyncall_call_mips.h
+END
+dyncall_callvm_sparc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1093/trunk/dyncall/dyncall/dyncall_callvm_sparc.h
+END
+dyncall_call_mips_gas.S
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/628/trunk/dyncall/dyncall/dyncall_call_mips_gas.S
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/dyncall/!svn/ver/1035/trunk/dyncall/dyncall/TODO
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/BSDmakefile
+END
+dyncall_call_sparc64.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1065/trunk/dyncall/dyncall/dyncall_call_sparc64.h
+END
+dyncall_callvm_x86.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/dyncall/dyncall_callvm_x86.c
+END
+dyncall.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/1062/trunk/dyncall/dyncall/dyncall.h
+END
+gen-masm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1015/trunk/dyncall/dyncall/gen-masm.sh
+END
+dyncall_call_x86_generic_masm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dyncall/!svn/ver/1055/trunk/dyncall/dyncall/dyncall_call_x86_generic_masm.asm
+END

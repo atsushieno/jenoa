@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/816/trunk/dyncall/buildsys/cmake/Modules
+END
+FindDynCall.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dyncall/!svn/ver/816/trunk/dyncall/buildsys/cmake/Modules/FindDynCall.cmake
+END
+FindDynCallback.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dyncall/!svn/ver/816/trunk/dyncall/buildsys/cmake/Modules/FindDynCallback.cmake
+END
+UseLATEX.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/682/trunk/dyncall/buildsys/cmake/Modules/UseLATEX.cmake
+END
+FindDynLoad.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dyncall/!svn/ver/816/trunk/dyncall/buildsys/cmake/Modules/FindDynLoad.cmake
+END

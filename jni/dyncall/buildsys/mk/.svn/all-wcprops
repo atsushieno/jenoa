@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/dyncall/!svn/ver/765/trunk/dyncall/buildsys/mk
+END
+epilog.mk
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/764/trunk/dyncall/buildsys/mk/epilog.mk
+END
+app.mk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/765/trunk/dyncall/buildsys/mk/app.mk
+END
+dirs.mk
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dyncall/!svn/ver/754/trunk/dyncall/buildsys/mk/dirs.mk
+END
+prolog.mk
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/754/trunk/dyncall/buildsys/mk/prolog.mk
+END
+pcc.mk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/707/trunk/dyncall/buildsys/mk/pcc.mk
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/587/trunk/dyncall/buildsys/mk/lib.mk
+END

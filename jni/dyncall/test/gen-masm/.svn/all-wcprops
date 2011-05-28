@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/dyncall/!svn/ver/1117/trunk/dyncall/test/gen-masm
+END
+gen_masm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/826/trunk/dyncall/test/gen-masm/gen_masm.sh
+END
+dyncall_macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/1117/trunk/dyncall/test/gen-masm/dyncall_macros.h
+END
+call_x86.S
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/826/trunk/dyncall/test/gen-masm/call_x86.S
+END
+call_x64.masm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/826/trunk/dyncall/test/gen-masm/call_x64.masm
+END
+call_x86.masm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/826/trunk/dyncall/test/gen-masm/call_x86.masm
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/826/trunk/dyncall/test/gen-masm/Makefile
+END
+call_x64.S
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/826/trunk/dyncall/test/gen-masm/call_x64.S
+END

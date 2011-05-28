@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/dyncall/!svn/ver/1132/trunk/dyncall/test/plain
+END
+test_framework.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/675/trunk/dyncall/test/plain/test_framework.h
+END
+test_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1072/trunk/dyncall/test/plain/test_main.c
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/1123/trunk/dyncall/test/plain/Makefile.embedded
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/test/plain/BSDmakefile
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/test/plain/GNUmakefile
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dyncall/!svn/ver/1132/trunk/dyncall/test/plain/mkfile
+END
+test_structs.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/test/plain/test_structs.c
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/1125/trunk/dyncall/test/plain/Makefile.generic
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/test/plain/Nmakefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/1033/trunk/dyncall/test/plain/CMakeLists.txt
+END

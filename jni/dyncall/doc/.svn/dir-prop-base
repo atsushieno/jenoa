@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 88
+manual.aux
+manual.lof
+manual.log
+manual.lol
+manual.lot
+manual.out
+manual.pdf
+manual.toc
+
+END

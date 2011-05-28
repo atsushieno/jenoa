@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dyncall/!svn/ver/624/trunk/dyncall/test/hacking-mips
+END
+calls.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/624/trunk/dyncall/test/hacking-mips/calls.c
+END
+dispatch.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/dispatch.c
+END
+prolog.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/prolog.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/main.c
+END
+f.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/f.c
+END
+f0.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/f0.c
+END
+node.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/node.c
+END
+retn.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/retn.c
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/README.txt
+END
+call.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/call.c
+END
+funs.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dyncall/!svn/ver/624/trunk/dyncall/test/hacking-mips/funs.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/Makefile
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/611/trunk/dyncall/test/hacking-mips/common.h
+END

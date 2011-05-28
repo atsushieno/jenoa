@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dyncall/!svn/ver/1072/trunk/dyncall/test/callback_suite
+END
+make-signatures.lua
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dyncall/!svn/ver/602/trunk/dyncall/test/callback_suite/make-signatures.lua
+END
+invokers.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/invokers.c
+END
+print.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/print.h
+END
+do_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/551/trunk/dyncall/test/callback_suite/do_test.c
+END
+dyncall_value_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/dyncall_value_set.h
+END
+config.lua
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/604/trunk/dyncall/test/callback_suite/config.lua
+END
+invokers.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/invokers.h
+END
+Makefile.generic
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dyncall/!svn/ver/942/trunk/dyncall/test/callback_suite/Makefile.generic
+END
+_auto_signatures.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/_auto_signatures.txt
+END
+make-invokers.lua
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/make-invokers.lua
+END
+Nmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/500/trunk/dyncall/test/callback_suite/Nmakefile
+END
+make-config.lua
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/602/trunk/dyncall/test/callback_suite/make-config.lua
+END
+config-random.lua
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/603/trunk/dyncall/test/callback_suite/config-random.lua
+END
+make-invoke-macros.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dyncall/!svn/ver/602/trunk/dyncall/test/callback_suite/make-invoke-macros.lua
+END
+env.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/500/trunk/dyncall/test/callback_suite/env.c
+END
+make-invoke-table.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/make-invoke-table.lua
+END
+_auto_invoke_macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dyncall/!svn/ver/1072/trunk/dyncall/test/callback_suite/_auto_invoke_macros.h
+END
+sigstrings.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/sigstrings.c
+END
+_auto_invokers.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/_auto_invokers.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dyncall/!svn/ver/728/trunk/dyncall/test/callback_suite/CMakeLists.txt
+END
+env.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/env.h
+END
+_auto_invoke_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/_auto_invoke_table.h
+END
+sigstrings.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/sigstrings.h
+END
+_auto_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dyncall/!svn/ver/1072/trunk/dyncall/test/callback_suite/_auto_config.h
+END
+config-stress1.lua
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dyncall/!svn/ver/603/trunk/dyncall/test/callback_suite/config-stress1.lua
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/866/trunk/dyncall/test/callback_suite/GNUmakefile
+END
+make-cstrings.lua
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/make-cstrings.lua
+END
+handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dyncall/!svn/ver/550/trunk/dyncall/test/callback_suite/handler.c
+END
+stress1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/602/trunk/dyncall/test/callback_suite/stress1.cfg
+END
+signature_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/signature_utils.c
+END
+Makefile.embedded
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dyncall/!svn/ver/1072/trunk/dyncall/test/callback_suite/Makefile.embedded
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dyncall/!svn/ver/501/trunk/dyncall/test/callback_suite/main.c
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dyncall/!svn/ver/490/trunk/dyncall/test/callback_suite/BSDmakefile
+END
+signature_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/signature_utils.h
+END
+_auto_sigstrings.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/_auto_sigstrings.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dyncall/!svn/ver/481/trunk/dyncall/test/callback_suite/README.txt
+END
+print.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dyncall/!svn/ver/493/trunk/dyncall/test/callback_suite/print.c
+END
