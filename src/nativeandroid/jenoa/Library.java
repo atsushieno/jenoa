@@ -40,7 +40,12 @@ public interface Library {
 		{
 			if (native_library == null) {
 				native_library = new NativeLibrary (libname);
-				options.putAll(native_library.getOptions());
+				Map libopts = native_library.getOptions();
+				if (libopts != null) {
+					if (options == null)
+						options = new HashMap ();
+					options.putAll(libopts);
+				}
 			}
 			return native_library;
 		}
@@ -69,9 +74,11 @@ public interface Library {
        	throws Throwable
        	{
 			String fname = null;
-			FunctionMapper fm = (FunctionMapper) options.get(Library.OPTION_FUNCTION_MAPPER);
+			FunctionMapper fm = options == null ? null : (FunctionMapper) options.get(Library.OPTION_FUNCTION_MAPPER);
 			if (fm != null)
 				fname = fm.getFunctionName(getNativeLibrary(), method);
+			else
+				fname = method.getName();
 			Function f = getNativeLibrary().getFunction(fname, method);
 			return f.invoke(method.getReturnType(), inArgs, options);
 		}

@@ -1,6 +1,7 @@
 
 
 #include "jenoa.h"
+#include <string.h>
 #include <locale.h>
 #include <dlfcn.h>
 #include "dyncall/dyncall/dyncall.h"
@@ -11,7 +12,7 @@ char * update_last_error ()
 {
 	if (last_error)
 		free (last_error);
-	char *err = dlerror ();
+	const char *err = dlerror ();
 	last_error = err == NULL ? NULL : strdup (err);
 	return last_error;
 }
@@ -220,3 +221,32 @@ JNIEXPORT jlong JNICALL Java_nativeandroid_jenoa_LibDL_invokePointer
 	return (jlong) dcCallPointer (vm, fp);
 }
 
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_Native_getPointerSize
+  (JNIEnv *env, jclass cls)
+{
+	return (jint) sizeof (void*);
+}
+
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_Native_getLongSize
+  (JNIEnv *env, jclass cls)
+{
+	return (jint) sizeof (long);
+}
+
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_Native_getWCharSize
+  (JNIEnv *env, jclass cls)
+{
+	return (jint) sizeof (wchar_t);
+}
+
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_Native_getSizeTSize
+  (JNIEnv *env, jclass cls)
+{
+	return (jint) sizeof (size_t);
+}
+
+JNIEXPORT jlong JNICALL Java_nativeandroid_jenoa_Native_valueOfNullPointer
+  (JNIEnv *env, jclass cls)
+{
+	return (jlong) NULL;
+}

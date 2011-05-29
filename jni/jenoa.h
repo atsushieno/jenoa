@@ -159,3 +159,82 @@ JNIEXPORT jlong JNICALL Java_nativeandroid_jenoa_LibDL_invokePointer
 }
 #endif
 #endif
+/* Header for class nativeandroid_jenoa_Native */
+
+#ifndef _Included_nativeandroid_jenoa_Native
+#define _Included_nativeandroid_jenoa_Native
+#ifdef __cplusplus
+extern "C" {
+#endif
+/*
+ * Class:     nativeandroid_jenoa_Native
+ * Method:    getPointerSize
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_Native_getPointerSize
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     nativeandroid_jenoa_Native
+ * Method:    getLongSize
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_Native_getLongSize
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     nativeandroid_jenoa_Native
+ * Method:    getWCharSize
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_Native_getWCharSize
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     nativeandroid_jenoa_Native
+ * Method:    getSizeTSize
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_nativeandroid_jenoa_Native_getSizeTSize
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     nativeandroid_jenoa_Native
+ * Method:    valueOfNullPointer
+ * Signature: ()I
+ */
+JNIEXPORT jlong JNICALL Java_nativeandroid_jenoa_Native_valueOfNullPointer
+  (JNIEnv *, jclass);
+
+#ifdef __cplusplus
+}
+#endif
+#endif
+/* Header for class nativeandroid_jenoa_Native_DeleteNativeLibrary */
+
+#ifndef _Included_nativeandroid_jenoa_Native_DeleteNativeLibrary
+#define _Included_nativeandroid_jenoa_Native_DeleteNativeLibrary
+#ifdef __cplusplus
+extern "C" {
+#endif
+#undef nativeandroid_jenoa_Native_DeleteNativeLibrary_MIN_PRIORITY
+#define nativeandroid_jenoa_Native_DeleteNativeLibrary_MIN_PRIORITY 1L
+#undef nativeandroid_jenoa_Native_DeleteNativeLibrary_NORM_PRIORITY
+#define nativeandroid_jenoa_Native_DeleteNativeLibrary_NORM_PRIORITY 5L
+#undef nativeandroid_jenoa_Native_DeleteNativeLibrary_MAX_PRIORITY
+#define nativeandroid_jenoa_Native_DeleteNativeLibrary_MAX_PRIORITY 10L
+#ifdef __cplusplus
+}
+#endif
+#endif
+/* Header for class nativeandroid_jenoa_Native_Libc */
+
+#ifndef _Included_nativeandroid_jenoa_Native_Libc
+#define _Included_nativeandroid_jenoa_Native_Libc
+#ifdef __cplusplus
+extern "C" {
+#endif
+#ifdef __cplusplus
+}
+#endif
+#endif

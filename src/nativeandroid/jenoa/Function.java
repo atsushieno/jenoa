@@ -3,7 +3,9 @@ package nativeandroid.jenoa;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 
 public class Function extends Pointer {
 	public static interface PostCallRead {
@@ -47,7 +49,7 @@ public class Function extends Pointer {
 	
 	static Object[] concatenateVarArgs(Object[] inArgs)
 	{
-		throw new UnsupportedOperationException();
+		return inArgs;
 	}
 	
 	static boolean isVarArgs(Method m)
@@ -64,17 +66,21 @@ public class Function extends Pointer {
 	final Map options = new Hashtable ();
 	NativeLibrary library;
 	String name;
+	Pointer native_ptr;
 	
 	Function(NativeLibrary library, String functionName, int callFlags)
 	{
+		if (functionName == null)
+			throw new java.lang.IllegalArgumentException ("null functionName");
 		this.library = library;
-		this.name = name;
+		this.name = functionName;
 		this.callFlags = callFlags;
 	}
 	
 	Function(Pointer functionAddress, int callFlags)
 	{
-		throw new UnsupportedOperationException();
+		native_ptr = functionAddress;
+		this.callFlags = callFlags;
 	}
 	
 	public String getName()
@@ -95,13 +101,20 @@ public class Function extends Pointer {
 	
 	public Object invoke(Class returnType, Object[] inArgs, Map options)
 	{
-		throw new UnsupportedOperationException();
+		return invoke(inArgs, returnType, true);
 	}
 	
 	Object invoke(Object[] args, Class returnType, boolean allowObjects)
 	{
 		// the documentation says "implementation" that points to NativeLibrary... so it is there?
-		throw new UnsupportedOperationException();
+		if (native_ptr == null)
+			native_ptr = new Pointer (library.getSymbolAddress(name));
+		if (native_ptr == Pointer.NULL)
+			throw new UnsupportedOperationException(String.format("Function %d not found", name));
+
+		// FIXME: convert argument types.
+		
+		return LibDL.getInstance().invoke(native_ptr.peer, returnType, args);
 	}
 	
 	public void invoke(Object[] args)

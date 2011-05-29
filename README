@@ -1,5 +1,8 @@
 It is an ongoing attempt to create JNA clone, primarily targetting android.
 
+jenoa uses dyncall. The set of sources is included in jenoa source tree.
+http://www.dyncall.org/ 
+
 Tasks:
 
 implement following types:

@@ -5,6 +5,15 @@ class LibDL {
 		System.loadLibrary ("jenoa");
 	}
 	
+	static LibDL instance;
+	
+	public static LibDL getInstance ()
+	{
+		if (instance == null)
+			instance = new LibDL ();
+		return instance;
+	}
+	
 	long dyncall_handle;
 	
 	public LibDL ()
@@ -38,6 +47,66 @@ class LibDL {
 		} else {
 			System.out.printf ("dlerror: %s\n", dlerror ());
 		}
+	}
+	
+	Object invoke (long handle, Class returnType, Object... params)
+	{
+		if (returnType.equals(boolean.class))
+			return invokeBoolean (handle, params);
+		if (returnType.equals(byte.class))
+			return invokeByte (handle, params);
+		if (returnType.equals(short.class))
+			return invokeShort(handle, params);
+		if (returnType.equals(int.class))
+			return invokeInt (handle, params);
+		if (returnType.equals(long.class))
+			return invokeLong (handle, params);
+		if (returnType.equals(float.class))
+			return invokeFloat (handle, params);
+		if (returnType.equals(double.class))
+			return invokeDouble (handle, params);
+		if (returnType.equals(void.class)) {
+			invokeVoid (handle, params);
+			return null;
+		}
+		throw new UnsupportedOperationException (String.format ("Class %s is not supported", returnType.getName()));
+	}
+
+	boolean invokeBoolean (long handle, Object... params)
+	{
+		return invokeBoolean (handle, dyncall_handle, params);
+	}
+	byte invokeByte (long handle, Object... params)
+	{
+		return invokeByte(handle, dyncall_handle, params);
+	}
+	short invokeShort (long handle, Object... params)
+	{
+		return invokeShort (handle, dyncall_handle, params);
+	}
+	int invokeInt (long handle, Object... params)
+	{
+		return invokeInt (handle, dyncall_handle, params);
+	}
+	long invokeLong (long handle, Object... params)
+	{
+		return invokeLong (handle, dyncall_handle, params);
+	}
+	float invokeFloat (long handle, Object... params)
+	{
+		return invokeFloat (handle, dyncall_handle, params);
+	}
+	double invokeDouble (long handle, Object... params)
+	{
+		return invokeDouble (handle, dyncall_handle, params);
+	}
+	void invokeVoid (long handle, Object... params)
+	{
+		invokeVoid (handle, dyncall_handle, params);
+	}
+	long invokePointer (long handle, Object... params)
+	{
+		return invokePointer (handle, dyncall_handle, params);
 	}
 	
 	public static final int RTLD_LAZY = 1;

@@ -32,10 +32,15 @@ public class Native {
 	}
 	*/
 	
+	static {
+		System.loadLibrary ("jenoa");
+	}
+
 	static native int getPointerSize();
 	static native int getLongSize();
 	static native int getWCharSize();
 	static native int getSizeTSize();
+	static native long valueOfNullPointer();
 	
 	public static final int POINTER_SIZE = getPointerSize();
 	public static final int LONG_SIZE = getLongSize();
@@ -138,7 +143,7 @@ public class Native {
 	{
 		// FIXME: instantiate Library.Handler every time?
 		// FIXME: create new proxy instance every time?
-		return Proxy.newProxyInstance(interfaceClass.getClassLoader(), interfaceClass.getInterfaces(), new Library.Handler(name, interfaceClass, options));
+		return Proxy.newProxyInstance(interfaceClass.getClassLoader(), new Class [] {interfaceClass}, new Library.Handler(name, interfaceClass, options));
 	}
 	
 	static Class findEnclosingLibraryClass(Class cls)
@@ -311,6 +316,12 @@ public class Native {
 
 	public static void main(String[] args)
 	{
-		throw new UnsupportedOperationException();
+		Libc c = (Libc) Native.loadLibrary("c", Libc.class);
+		System.out.printf ("%d %d", c.isalpha(0x20), c.isalpha(0x61));
+	}
+	
+	interface Libc extends Library
+	{
+		int isalpha (int c);
 	}
 }

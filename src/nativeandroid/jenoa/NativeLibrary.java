@@ -1,6 +1,7 @@
 package nativeandroid.jenoa;
 
 
+import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
@@ -10,10 +11,12 @@ import java.util.Vector;
 
 public class NativeLibrary {
 	
+	static HashMap<String,List<String>> lookup_paths;
 	static Vector<NativeLibrary> instances;
 	
 	static {
-		instances = new Vector<NativeLibrary> ();
+		lookup_paths = new HashMap<String,List<String>>();
+		instances = new Vector<NativeLibrary>();
 	}
 	
 	public static final NativeLibrary getInstance(String libraryName)
@@ -21,8 +24,15 @@ public class NativeLibrary {
 		return getInstance(libraryName, null);
 	}
 	
+	static String canonicalizeLibraryName (String name)
+	{
+		return "lib" + name;
+	}
+	
 	public static final NativeLibrary getInstance(String libraryName, Map options)
 	{
+		libraryName = canonicalizeLibraryName (libraryName);
+		
 		for (NativeLibrary l : instances)
 			if (l.getName().equals(libraryName))
 				return l;
@@ -46,14 +56,21 @@ public class NativeLibrary {
 	public static final void addSearchPath(String libraryName,
             String path)
 	{
+		List<String> paths = lookup_paths.get(libraryName);
+		if (path == null) {
+			paths = new Vector<String>();
+			lookup_paths.put(libraryName, paths);
+		}
 		throw new UnsupportedOperationException();
 	}
+
 	
 	public NativeLibrary (String name)
 	{
 		this.name = name;
 		local_options = new Hashtable ();
 		options.putAll(local_options);
+		dl_handle = LibDL.getInstance().dlopen(name, LibDL.RTLD_LAZY);
 	}
 	
 	final int callFlags = Function.C_CONVENTION;
@@ -61,6 +78,7 @@ public class NativeLibrary {
 	String name;
 	File file;
 	Map local_options;
+	long dl_handle;
 	
 	public Function getFunction(String functionName)
 	{
@@ -82,6 +100,10 @@ public class NativeLibrary {
 	
 	Function getFunction(String name, Method method)
 	{
+		if (name == null)
+			throw new IllegalArgumentException ("null name");
+		if (method == null)
+			throw new IllegalArgumentException ("null method");
 		for (NamedFunction nf : functions)
 			if (nf.name.equals (name) && nf.method == method)
 				return nf.function;
@@ -89,7 +111,7 @@ public class NativeLibrary {
 		nf.name = name;
 		nf.method = method;
 		Integer cc = (Integer) local_options.get(Library.OPTION_CALLING_CONVENTION);
-		nf.function = new Function(this, name, cc);
+		nf.function = new Function(this, name, cc != null ? cc.intValue() : Function.C_CONVENTION);
 		functions.add(nf);
 		return nf.function;
 	}
@@ -104,12 +126,10 @@ public class NativeLibrary {
 		return new Pointer(getSymbolAddress(symbolName));
 	}
 	
-	static native long dlsym(String name);
-	
 	long getSymbolAddress(String name)
 	{
 		// FIXME: canonicalize name
-		return dlsym(name);
+		return LibDL.getInstance().dlsym(dl_handle, name);
 	}
 	
 	@Override
@@ -125,19 +145,22 @@ public class NativeLibrary {
 	
 	public File getFile()
 	{
-		if (file == null)
-			file = new File (name);
-		return file;
+		throw new UnsupportedOperationException();
 	}
 	
 	protected void finalize()
 	{
-		
+		dispose();
 	}
 	
 	public void dispose()
 	{
-		throw new UnsupportedOperationException();
+		synchronized (this) {
+			if (dl_handle != 0) {
+				LibDL.getInstance().dlclose(dl_handle);
+				dl_handle = 0;
+			}
+		}
 	}
 	
 	static String matchLibrary(String libName, List searchPath)

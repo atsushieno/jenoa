@@ -11,11 +11,8 @@ import java.nio.ByteBuffer;
 
 public class Pointer {
 	
-	static native int sizeof();
-	static native int valueOfNullPointer();
-	
-	public static final int SIZE = sizeof ();
-	public static final Pointer NULL = createConstant(valueOfNullPointer());
+	public static final int SIZE = Native.getPointerSize();
+	public static final Pointer NULL = createConstant(Native.valueOfNullPointer());
 	
 	public static final Pointer createConstant(long peer)
 	{
